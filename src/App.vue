@@ -1,5 +1,10 @@
 <template>
-  <Dashboard msg="How did you sleep last night?" />
+  <div class="p-14">
+    <router-link class="flex justify-center text-4xl text-yellow-700">
+      Pokemon picker
+    </router-link>
+    <Dashboard msg="" />
+  </div>
 </template>
 
 <script setup>
