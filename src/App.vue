@@ -1,26 +1,9 @@
 <template>
   <div class="p-14">
-    <router-link class="flex justify-center text-4xl text-yellow-700">
-      Pokemon picker
-    </router-link>
-    <Dashboard msg="" />
+    <router-link class="flex justify-center text-4xl text-yellow-700" to="/">Pokemon picker</router-link>
+    <router-view />
   </div>
 </template>
 
-<script setup>
-import Dashboard from './components/Dashboard.vue'
-
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
-</script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
